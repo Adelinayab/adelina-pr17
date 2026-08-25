@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vertex Architects — Проекты</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="header">
+        <div class="container navbar">
+            <a href="index.html" class="navbar__logo">Vertex Architects</a>
+            
+            <nav>
+                <ul class="navbar__menu">
+                    <li><a href="index.html" class="navbar__link">Главная</a></li>
+                    <li><a href="about.html" class="navbar__link">О бюро</a></li>
+                    <li><a href="projects.html" class="navbar__link">Проекты</a></li>
+                    <li><a href="services.html" class="navbar__link">Услуги</a></li>
+                    <li><a href="portfolio.html" class="navbar__link">Портфолио</a></li>
+                    <li><a href="contacts.html" class="navbar__link">Контакты</a></li>
+                    <li><a href="blog.html" class="navbar__link">Блог</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="projects">
+            <div class="container">
+                <h1>Проекты</h1>
+                
+                <div class="filters">
+                    <input type="radio" name="filter" id="all" class="filters__input" checked>
+                    <label for="all" class="filters__label">Все</label>
+                    
+                    <input type="radio" name="filter" id="house" class="filters__input">
+                    <label for="house" class="filters__label">Жилые</label>
+                    
+                    <input type="radio" name="filter" id="office" class="filters__input">
+                    <label for="office" class="filters__label">Коммерческие</label>
+                    
+                    <input type="radio" name="filter" id="public" class="filters__input">
+                    <label for="public" class="filters__label">Общественные</label>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2026 Vertex Architects. Все права защищены.</p>
+    </footer>
+
+</body>
+</html>
